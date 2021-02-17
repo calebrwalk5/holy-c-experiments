@@ -9,7 +9,7 @@ for (; i >= 0; i--) {
   if ((i-1) != 1) {
 	"s";
 	}
-    " of beer in the fridge\n";
+    " beers in the fridge, MF DOOM is happy\n";
   }
 }
 }
