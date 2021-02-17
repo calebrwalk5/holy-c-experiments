@@ -7,9 +7,11 @@ for (; i >= 0; i--) {
     "MF DOOM is sad, there are no beers left.\n";
   } else {
   if ((i-1) != 1) {
-			"s";
+	"s";
 	}
     " of beer in the fridge\n";
   }
 }
 }
+
+BOB;
