@@ -8,6 +8,7 @@ U0 main() {
   print "Time: ";
   print("%04d-%02d-%02d %02d:%02d:%02d\n", ds.year, ds.mon, ds.day_of_mon, ds.hour, ds.min, ds.sec);
   cli();
+  return 0;
 }
 
 U0 cli() {
