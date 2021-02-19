@@ -13,13 +13,23 @@ U0 main() {
 U0 cli() {
   while(1) {
     g = GetStr("Terry@Heaven:~$ ");
-    if (Str2I64(g) != "") {
+    if (g != "") {
       proscess();
     }
   }
 }
 
-U8 proscess() {
-  // if statements go here to recognize commands
+U0 proscess() {
+  if(g == "echo") {
+    print "\n";
+    string = GetStr "Enter Text: ";
+    print("%s\n", string);
+    cli();
+  } else if(g == "clear") {
+    break;
+  } else {
+    cli();
+  }
 }
+
 main();
