@@ -11,7 +11,6 @@ U0 main() {
 }
 
 U0 cli() {
-  print ";
   while(1) {
     g = GetStr("Terry@Heaven:~$ ");
     if (Str2I64(g) != "") {
